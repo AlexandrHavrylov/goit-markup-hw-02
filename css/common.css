@@ -1,0 +1,30 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет  #757575; */
+/* акцент  #2196F3 */
+/* основной белый цвет #E5E5E5 */
+
+root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+/* Logo */
+.logo {
+  color: #000000;
+}
+.logo > span {
+  color: #2196f3;
+}
+
+/* Навигация */
+.nav-list {
+}
