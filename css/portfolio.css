@@ -1,0 +1,15 @@
+/* Кнопки */
+button {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+button:hover,
+button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Список примеров */
+.exampl-el p {
+  color: var(--secondary-text-color);
+}
