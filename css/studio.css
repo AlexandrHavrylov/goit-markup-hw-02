@@ -6,7 +6,7 @@
   color: var(--primary-white-color);
   margin: 0;
 }
-.hero a {
+.buttom {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }

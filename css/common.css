@@ -37,6 +37,9 @@ header {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.link.active {
+  color: var(--accent-color);
+}
 /* Контакты в хедере */
 .contacts a {
   color: var(--secondary-text-color);
