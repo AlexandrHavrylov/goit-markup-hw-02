@@ -5,6 +5,7 @@
 /* вторичний бг цвет #f5f4fa
 третий бг цвет #2F303A */
 
+/* ГЛОБАЛЬНЫЕ ПРАВИЛА */
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -18,14 +19,28 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
 }
 header {
   background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Навигация сайта */
 .logo {
   color: #000000;
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo span {
   color: var(--accent-color);
@@ -53,6 +68,10 @@ header {
 /* FOOTER */
 .footer {
   background-color: var(--third-bg-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .address span {
