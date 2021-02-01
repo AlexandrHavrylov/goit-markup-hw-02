@@ -1,7 +1,18 @@
+h1,
+h1::selection {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
 /* Кнопки */
 button {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 button:hover,
 button:focus {
@@ -10,7 +21,16 @@ button:focus {
 }
 
 /* Список примеров */
-
+.exampl-el h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .exampl-el p {
   color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }

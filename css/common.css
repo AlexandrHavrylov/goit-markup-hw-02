@@ -32,12 +32,6 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
 
 /* Навигация сайта */
 .logo {

@@ -1,3 +1,10 @@
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
 /* HERO section */
 .hero {
   background-color: var(--third-bg-color);
