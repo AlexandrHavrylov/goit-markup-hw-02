@@ -10,6 +10,7 @@ button:focus {
 }
 
 /* Список примеров */
+
 .exampl-el p {
   color: var(--secondary-text-color);
 }
