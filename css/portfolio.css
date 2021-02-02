@@ -8,6 +8,7 @@ h1::selection {
 button {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -29,6 +30,7 @@ button:focus {
 }
 .exampl-el p {
   color: var(--secondary-text-color);
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
