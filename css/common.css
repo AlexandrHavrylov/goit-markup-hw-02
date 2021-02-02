@@ -27,10 +27,6 @@ a {
 }
 header {
   background-color: var(--primary-white-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 /* Навигация сайта */
@@ -55,6 +51,13 @@ header {
 }
 .link.active {
   color: var(--accent-color);
+}
+.site-nav,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* Контакты в хедере */
 .contacts a {
