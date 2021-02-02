@@ -24,11 +24,17 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-a {
-  text-decoration: none;
+
 }
 header {
   background-color: var(--primary-bg-color);
+}
+
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
 }
 
 /* Навигация сайта */
