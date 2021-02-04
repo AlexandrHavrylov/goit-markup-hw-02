@@ -15,6 +15,7 @@
   --third-bg-color: #2f303a;
   --white-color: #ffffff;
   --black-logo: #000000;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -25,54 +26,72 @@ body {
   letter-spacing: 0.03em;
 }
 
-}
-header {
-  background-color: var(--primary-bg-color);
-}
-
-.link{
+a {
   text-decoration: none;
 }
-.list{
-  list-style: none ;
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Навигация сайта */
-.logo {
-  color: var(--black-logo) !important;
+.head-logo {
+  color: var(--black-logo);
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
-.logo span {
+
+.head-logo span {
   color: var(--accent-color);
 }
 
-.site-nav a {
+.nav-link {
   color: var(--primary-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.link.active {
-  color: var(--accent-color);
-}
-.site-nav,
-.contacts {
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-/* Контакты в хедере */
-.contacts a {
-  color: var(--secondary-text-color);
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
 }
-.contacts .link:hover,
-.contacts .link:focus {
+
+.nav-link.active {
+  color: var(--accent-color);
+}
+
+/* Контакты в хедере */
+.contacts-link {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -85,13 +104,32 @@ header {
   line-height: 1.71;
 }
 
+.footer-logo {
+  color: var(--white-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.address {
+  font-style: inherit;
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+
 .address span {
   color: var(--primary-bg-color);
 }
-.address a {
-  color: rgba(255, 255, 255, 0.6);
+
+.address-link {
+  color: var(--footer-address-color);
 }
-.address .link:hover,
-.address .link:focus {
+
+.address-link:hover,
+.address-link:focus {
   color: var(--accent-color);
 }
