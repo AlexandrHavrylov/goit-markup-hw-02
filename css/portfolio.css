@@ -28,7 +28,7 @@
 .examples-text {
   color: var(--secondary-text-color);
 
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
